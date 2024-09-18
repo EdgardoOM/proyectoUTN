@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import './../styles/home.css';
 
 const HomePage = (props) => {
     return (
@@ -8,7 +9,7 @@ const HomePage = (props) => {
             </div>
             <div className="columnas">
                 <div className="bienvenidos left">
-                    <h2>bienvenidos</h2>
+                    <h2>Bienvenidos</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus tempora deserunt facere. Aperiam reiciendis consequatur sapiente illum? Porro hic labore ipsum minus recusandae nesciunt ipsa rerum at doloribus voluptate. Delectus!
                     Reiciendis nihil sit iure perspiciatis eius voluptatum deserunt cum dolores maxime pariatur, doloremque nesciunt itaque. Corrupti saepe, molestias consectetur omnis dolores, nostrum enim ducimus cum ea similique soluta necessitatibus quas.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus, ex cumque suscipit dolorem vero eveniet repellendus voluptas. Unde ratione debitis nam illo, necessitatibus dolore officiis repudiandae soluta assumenda qui.

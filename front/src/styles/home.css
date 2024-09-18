@@ -1,0 +1,60 @@
+.homeimg {
+    height: 250px;
+    overflow: hidden;
+    transition: filter .3s ease;
+} 
+
+.homeimg::after {
+    content: "";
+    display: block;
+    height: 50px;
+    background-color: #333;
+    position: relative;
+    bottom: 0px;
+    transition: bottom .3s ease;
+}
+
+.homeimg:hover {
+    filter: grayscale(1);
+}
+
+.homeimg:hover:after {
+    bottom: 50px;
+    content: "Bienvenidos a Transporte X";
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 0 0 20px;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
